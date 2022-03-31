@@ -11,3 +11,69 @@
     --color-tx-main-g:#727272;
     --color-tx-main-w:white;
 }
+
+/* COMMON  */
+html{
+    font-size: 100%;
+}
+
+.container-fluid{
+    border: 2px solid orangered;
+
+}
+
+.container{
+    border: 2px solid yellowgreen;
+}
+
+.row div{
+    border: 1px solid pink;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+/* HEADER  */
+.header{
+    height: 100px;
+
+}
+
+/* header-top  */
+.header-top{
+    height:30px;
+    background-color: black;
+}
+
+/* header-bottom  */
+.header-bottom{
+    height: 70px;  
+    background-color: blue;
+}
+
+/*JUMBOTRON  */
+.jumbotron{
+    background-color: #cd3d0f;
+}
+
+.jumbotron-top{
+    height: 300px;
+    border: 2px solid blue;
+}
+
+.jumbotron-bottom{
+    height: 150px;
+    background-color: #2b0fcd;
+}
+
+/* MAIN-UNO  */
+.main-uno{
+    background-color: #363636;
+    height: 200px;
+}
+
