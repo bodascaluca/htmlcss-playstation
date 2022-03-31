@@ -26,6 +26,11 @@ html{
     border: 2px solid yellowgreen;
 }
 
+.ms_container{
+    width: 60%;
+    margin: 0 auto;
+    border: black;
+}
 /* .row div{
     border: 1px solid pink;
     height: 30px;
@@ -97,4 +102,9 @@ html{
 /* MAIN-SEI */
 .main-sei{
     background-color: darksalmon;
+}
+
+/* MAIN-SETTE */
+.main-sette{
+    background-color: greenyellow;
 }
