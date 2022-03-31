@@ -1,0 +1,13 @@
+/* VARIABLES  */
+:root{
+    /* Ccolor  */
+    --color-btn-header:#363636;
+    --color-btn-jumbotron: #cd3d0f;
+    --color-btn-main: #2d64e6;
+    --color-btn-main-w:#f5f5f5;
+    --color-btn-main-opaco:#d9dadc;
+
+    /* Color text  */
+    --color-tx-main-g:#727272;
+    --color-tx-main-w:white;
+}
