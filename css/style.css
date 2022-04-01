@@ -133,9 +133,17 @@ img{
 /* MAIN-TRE  */
 .ms_main-tre{
     background-color:#363636;
-    /* height: 300px; */
 }
 
+.ms_main-tre-text,
+.ms_main-tre-tx{
+    color: var(--color-tx-main-w);
+}
+
+.ms_main-tre img{
+    border: 1px solid #363636;
+    border-radius:10px ;
+}
 /* MAIN_QUATTRO  */
 .ms_main-quattro{
   background-color: red;
