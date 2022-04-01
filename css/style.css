@@ -18,10 +18,13 @@ html{
     font-size: 100%;
 }
 
-.body{
+body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+img{
+    width:100%;
+}
 .container-fluid{
     border: 2px solid orangered;
 
@@ -54,13 +57,11 @@ html{
 
 .ms_header-top img{
     width: 5rem;
-    /* height: 75%; */
 }
 
 /* header-bottom  */
 .ms_header-bottom{
     height: 70px;  
-    background-color: blue;
 }
 
 /*JUMBOTRON  */
