@@ -25,10 +25,6 @@ body{
 img{
     width:100%;
 }
-.container-fluid{
-    border: 2px solid orangered;
-
-}
 
 .container{
     border: 2px solid yellowgreen;
@@ -39,11 +35,6 @@ img{
     margin: 0 auto;
     border: black;
 }
-
-/* .row div{
-    border: 1px solid pink;
-    height: 30px;
-} */
 
 /* HEADER  */
 .ms_header{
@@ -59,30 +50,71 @@ img{
     width: 5rem;
 }
 
+.ms_header-top img{
+    width: 5rem;
+}
+
 /* header-bottom  */
 .ms_header-bottom{
     height: 70px;  
 }
 
+.ms_header-bottom .dropdown-toggle::after{
+    display: none;
+}
+
+.ms_header-bottom .ms_chevron{
+    width: 10px;
+}
+
 /*JUMBOTRON  */
 .ms_jumbotron{
-    background-color: #cd3d0f;
+    margin-top: 100px;
+
 }
 
 .ms_jumbotron-top{
-    height: 300px;
-    border: 2px solid blue;
+   background-image: url(../img/jumbo-bg.png);
+   background-position: top;
+   background-repeat: no-repeat;
+   padding: 16rem 0 3rem;
 }
 
-.ms_jumbotron-bottom{
-    height: 150px;
+.ms_jumbotron-tx{
+  color: var(--color-btn-main-w);  
+}
+
+.ms_jumbotron-tx .ms_jumbo-title{
+    padding-bottom:1.5rem ;
+}
+
+.ms_jumbotron-bottom img{
+    border: 1px solid white;
+    border-radius:10px ;
     background-color: #f3e40b;
 }
 
 /* MAIN-UNO  */
-.ms_main-uno{
-    background-color: #bf09ec;
-    /* height: 200px; */
+.ms_main-uno .ms_a-link{
+    color: inherit;
+    color: #2181d3;
+}
+
+.ms_main-uno .ms_a-link .ms_a-tx{
+    font-size: .8rem;
+}
+
+.ms_main-uno .ms_main-h4{
+    font-size: 2rem;
+}
+
+.ms_main-uno .ms_main-fkp{
+    font-size: 1.1rem;
+    color: var(--color-tx-main-g);
+}
+
+.ms_main-uno .ms_main-uno-console{
+   padding-top: 11rem;
 }
 
 /* MAIN-DUE  */
@@ -119,13 +151,13 @@ img{
 
 /* FOOTER */
 .ms_footer{
-
+    /* background-color: #2d64e6; */
 }
 /* FOOTER-TOP  */
 .ms_footer-top{
-
+    /* background-color: #2d64e6; */
 }
 /* FOOTER-BOTTOM */
 .ms_footer-bottom{
-
+    /* background-color: #2d64e6; */
 }
