@@ -6,6 +6,7 @@
     --color-btn-main: #2d64e6;
     --color-btn-main-w:#f5f5f5;
     --color-btn-main-opaco:#d9dadc;
+    --color-black: black;
 
     /* Color text  */
     --color-tx-main-g:#727272;
@@ -15,6 +16,10 @@
 /* COMMON  */
 html{
     font-size: 100%;
+}
+
+.body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container-fluid{
@@ -44,80 +49,85 @@ html{
 
 
 /* HEADER  */
-.header{
+.ms_header{
     height: 100px;
 
 }
 
 /* header-top  */
-.header-top{
+.ms_header-top{
     height:30px;
     background-color: black;
 }
 
 /* header-bottom  */
-.header-bottom{
+.ms_header-bottom{
     height: 70px;  
     background-color: blue;
 }
 
 /*JUMBOTRON  */
-.jumbotron{
+.ms_jumbotron{
     background-color: #cd3d0f;
 }
 
-.jumbotron-top{
+.ms_jumbotron-top{
     height: 300px;
     border: 2px solid blue;
 }
 
-.jumbotron-bottom{
+.ms_jumbotron-bottom{
     height: 150px;
     background-color: #f3e40b;
 }
 
 /* MAIN-UNO  */
-.main-uno{
+.ms_main-uno{
     background-color: #bf09ec;
     /* height: 200px; */
 }
 
 /* MAIN-DUE  */
-.main-due{
+.ms_main-due{
     background-color:#cd3d0f ;
     height: 300px;
 }
 
 /* MAIN-TRE  */
-.main-tre{
+.ms_main-tre{
     background-color:#363636;
     /* height: 300px; */
 }
 
+/* MAIN_QUATTRO  */
+.ms_main-quattro{
+  background-color: red;
+}
+
 /*  MAIN-CINQUE */
-.main-cinque{
+.ms_main-cinque{
     background-color: bisque;
 }
 
 /* MAIN-SEI */
-.main-sei{
+.ms_main-sei{
     background-color: darksalmon;
 }
 
 /* MAIN-SETTE */
-.main-sette{
+.ms_main-sette{
     background-color: greenyellow;
 }
 
 /* FOOTER */
-.footer{
+.ms_footer{
 
 }
 /* FOOTER-TOP  */
-.footer-top{
+.ms_footer-top{
 
 }
 /* FOOTER-BOTTOM */
-.footer-bottom{
+.ms_footer-bottom{
 
 }
