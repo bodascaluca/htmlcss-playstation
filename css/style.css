@@ -117,6 +117,11 @@ img{
    padding-top: 11rem;
 }
 
+.ms_main-uno .ms_main-uno-img{
+    width: 100px;
+ }
+
+
 /* MAIN-DUE  */
 .ms_main-due{
     background-color:#cd3d0f ;
