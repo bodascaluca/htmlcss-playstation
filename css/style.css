@@ -108,7 +108,8 @@ img{
     font-size: 2rem;
 }
 
-.ms_main-uno .ms_main-fkp{
+.ms_main-uno,
+.ms_main-quattro .ms_main-fkp{
     font-size: 1.1rem;
     color: var(--color-tx-main-g);
 }
@@ -145,8 +146,12 @@ img{
     border-radius:10px ;
 }
 /* MAIN_QUATTRO  */
-.ms_main-quattro{
-  background-color: red;
+.ms_main-quattro .card .card-text{
+    color: var(--color-tx-main-g);
+}
+
+.ms_main-quattro .card{
+    border: none;
 }
 
 /*  MAIN-CINQUE */
