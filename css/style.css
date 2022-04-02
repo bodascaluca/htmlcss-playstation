@@ -156,9 +156,22 @@ img{
 
 /*  MAIN-CINQUE */
 .ms_main-cinque{
-    background-color: bisque;
+    background-color: #bebcbb;
 }
 
+.ms_main-cinque .ms_main-cinque-p{
+    color: black;
+}
+
+.ms_main-cinque .ms_main-cinque-a{
+    border:none;
+    background-color: var(--color-btn-main-opaco);
+}
+
+.ms_main-cinque .ms_main-cinque-back-img{
+    background-repeat: no-repeat;
+    
+}
 /* MAIN-SEI */
 .ms_main-sei{
     background-color: darksalmon;
