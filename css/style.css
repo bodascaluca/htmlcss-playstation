@@ -64,7 +64,17 @@ img{
 }
 
 .ms_header-bottom img{
-    width: 100px;
+    width: 90px;
+}
+
+.ms_header-bottom .ms_header-btn-a{
+    background-color: black;
+    color: white;
+}
+
+.ms_header-bottom .ms_header-btn-a:hover{
+    outline-offset: 1px;
+    outline:4px solid black;
 }
 
 .ms_header-bottom .dropdown-menu li{
@@ -74,9 +84,9 @@ img{
 /*JUMBOTRON  */
 .ms_jumbotron{
     margin-top: 100px;
-
 }
 
+/* JUMBOTRON-TOP  */
 .ms_jumbotron-top{
    background-image: url(../img/jumbo-bg.png);
    background-position: top;
@@ -92,6 +102,7 @@ img{
     padding-bottom:1.5rem ;
 }
 
+/* JUMBOTRON-BOTTOM */
 .ms_jumbotron-bottom img{
     border-radius:10px;
     transition: all 1s;
@@ -101,9 +112,14 @@ img{
     transform: translateY(-30px);
 }
 
-.ms_jumbotron-top a{
-    border: 1px solid white;
+.ms_jumbotron-top .ms_jumbotron-top-a{
+    background-color:#cd3d0f;
+    color:white;
+}
 
+.ms_jumbotron-top .ms_jumbotron-top-a:hover{
+    outline-offset: -3px;
+    outline:1px solid black;
 }
 
 /* MAIN-UNO  */
@@ -124,6 +140,10 @@ img{
 .ms_main-quattro .ms_main-fkp{
     font-size: 1.1rem;
     color: var(--color-tx-main-g);
+}
+.ms_main-uno .ms_main-uno-a:hover{
+    outline-offset: -3px;
+    outline:1px solid white;
 }
 
 .ms_main-uno .ms_main-uno-console{
@@ -178,6 +198,11 @@ img{
     color: var(--color-tx-main-w);
 }
 
+.ms_main-due .ms_main-due-a:hover{
+    outline-offset: -3px;
+    outline:1px solid white;
+}
+
 .ms_main-tre img{
     border: 1px solid #363636;
     border-radius:10px ;
@@ -191,9 +216,32 @@ img{
     border: none;
 }
 
+.ms_main-quattro a:hover{
+    outline-offset: -3px;
+    outline:1px solid white;
+} 
+
+/* .ms_jumbotron-top .ms_jumbotron-top-a{
+    background-color:#cd3d0f;
+    color:white;
+}
+
+.ms_jumbotron-top .ms_jumbotron-top-a:hover{
+    outline-offset: -3px;
+    outline:1px solid black;
+} */
 /*  MAIN-CINQUE */
 .ms_main-cinque{
     background-color: #bebcbb;
+}
+
+.ms_main-cinque .ms_main-cinque-a{
+    color:#2d64e6;
+}
+
+.ms_main-cinque .ms_main-cinque-a:hover {
+    outline-offset: -3px;
+    outline:1px solid #2d64e6;
 }
 
 .ms_main-cinque .ms_main-cinque-p{
@@ -231,6 +279,15 @@ img{
 
 .ms_main-sette .ms_main-sette-img-lateral{
     display:none;
+}
+
+.ms_main-sette .ms_main-cinque-a{
+
+}
+
+.ms_main-sette .ms_main-cinque-a:hover{
+    outline-offset: -3px;
+    outline:1px solid black;
 }
 
 @media screen and (min-width:768px){
