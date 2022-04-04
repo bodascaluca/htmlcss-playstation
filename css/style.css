@@ -30,12 +30,6 @@ img{
     border: 2px solid yellowgreen;
 }
 
-.ms_container{
-    width: 60%;
-    margin: 0 auto;
-    border: black;
-}
-
 /* HEADER  */
 .ms_header{
     height: 100px;
@@ -61,6 +55,7 @@ img{
 
 .ms_header-bottom .ms_chevron{
     width: 10px;
+    rotate: 180;
 }
 
 .ms_header-bottom img{
@@ -79,6 +74,19 @@ img{
 
 .ms_header-bottom .dropdown-menu li{
     display: inline-block;
+}
+
+.ms_header-bottom .ms_header-li-special a{
+    color: inherit;
+    color: black;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.ms_header-bottom 
+
+.dropdown-menu{
+    width: 100vw;
 }
 
 /*JUMBOTRON  */
@@ -221,15 +229,6 @@ img{
     outline:1px solid white;
 } 
 
-/* .ms_jumbotron-top .ms_jumbotron-top-a{
-    background-color:#cd3d0f;
-    color:white;
-}
-
-.ms_jumbotron-top .ms_jumbotron-top-a:hover{
-    outline-offset: -3px;
-    outline:1px solid black;
-} */
 /*  MAIN-CINQUE */
 .ms_main-cinque{
     background-color: #bebcbb;
