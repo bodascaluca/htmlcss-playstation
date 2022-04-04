@@ -235,9 +235,9 @@ img{
 .ms_footer-top ul li a{
     color:inherit; 
     text-decoration: none;
- }
+}
 
 /* FOOTER-BOTTOM */
-.ms_footer-bottom{
-    /* background-color: #2d64e6; */
+.ms_footer-bottom .ms_footer-bottom-logo{
+    width: 150px;
 }
