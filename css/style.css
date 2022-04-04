@@ -204,10 +204,8 @@ img{
     border:none;
     background-color: var(--color-btn-main-opaco);
 }
-
-.ms_main-cinque .ms_main-cinque-img-lateral .ms_main-cinque-back-img{
-    background-repeat: no-repeat;
-    
+.ms_main-cinque .ms_main-cinque-img-lateral{
+    display: none;
 }
 
 .ms_main-cinque .ms_main-cinque-img-lateral .ms_main-cinque-back-img {
@@ -238,7 +236,7 @@ img{
 @media screen and (min-width:768px){
     
     .ms_main-sette .ms_main-sette-img-lateral{
-        display: inline-block;
+        display: inline-block
     }
 }
 
@@ -247,7 +245,6 @@ img{
         padding-top:4rem;
     }
 }
-
 
 /* FOOTER */
 .ms_footer{
