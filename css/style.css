@@ -212,12 +212,31 @@ img{
 }
 /* FOOTER */
 .ms_footer{
-    /* background-color: #2d64e6; */
+    background-color: #11439c;
+    color: white;
 }
 /* FOOTER-TOP  */
-.ms_footer-top{
-    /* background-color: #2d64e6; */
+.ms_footer-top .ms_footer-top-logo{
+    width: 100px;
 }
+
+.ms_footer-top .ms_footer-top-language-glob{
+    width: 15px;
+}
+
+.ms_footer-top .ms_main-top-tx{
+  font-size: .6rem;  
+}
+
+.ms_footer-top ul li{
+   list-style: none; 
+}
+
+.ms_footer-top ul li a{
+    color:inherit; 
+    text-decoration: none;
+ }
+
 /* FOOTER-BOTTOM */
 .ms_footer-bottom{
     /* background-color: #2d64e6; */
