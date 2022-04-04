@@ -168,20 +168,55 @@ img{
     background-color: var(--color-btn-main-opaco);
 }
 
-.ms_main-cinque .ms_main-cinque-back-img{
+.ms_main-cinque .ms_main-cinque-img-lateral .ms_main-cinque-back-img{
     background-repeat: no-repeat;
     
 }
+
+.ms_main-cinque .ms_main-cinque-img-lateral .ms_main-cinque-back-img{
+    background-repeat: no-repeat;
+    
+}
+
+
+.ms_main-cinque .ms_main-cinque-img-lateral{
+    display:none;
+}
+
+
+@media screen and (min-width:768px){
+    
+    .ms_main-cinque .ms_main-cinque-img-lateral{
+        display: inline-block;
+    }
+}
+
 /* MAIN-SEI */
-.ms_main-sei{
-    background-color: darksalmon;
+.ms_main-sei .ms_main-sei-subtitle {
+    color: var(--color-tx-main-g);
 }
 
 /* MAIN-SETTE */
 .ms_main-sette{
-    background-color: greenyellow;
+    background-color: #161c3b;
 }
 
+.ms_main-sette .ms_main-sette-img-lateral{
+    display:none;
+}
+
+@media screen and (min-width:768px){
+    
+    .ms_main-sette .ms_main-sette-img-lateral{
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width:992){
+    .ms_main-sette-logo{
+        padding-top:4rem;
+    }
+}
 /* FOOTER */
 .ms_footer{
     /* background-color: #2d64e6; */
