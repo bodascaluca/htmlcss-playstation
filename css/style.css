@@ -26,9 +26,9 @@ img{
     width:100%;
 }
 
-/* .container{
+.container{
     border: 2px solid yellowgreen;
-} */
+}
 
 .ms_container{
     width: 60%;
@@ -50,10 +50,6 @@ img{
     width: 5rem;
 }
 
-.ms_header-top img{
-    width: 5rem;
-}
-
 /* header-bottom  */
 .ms_header-bottom{
     height: 70px;  
@@ -65,6 +61,14 @@ img{
 
 .ms_header-bottom .ms_chevron{
     width: 10px;
+}
+
+.ms_header-bottom img{
+    width: 100px;
+}
+
+.ms_header-bottom .dropdown-menu li{
+    display: inline-block;
 }
 
 /*JUMBOTRON  */
@@ -95,6 +99,11 @@ img{
 
 .ms_jumbotron-bottom img:hover{
     transform: translateY(-30px);
+}
+
+.ms_jumbotron-top a{
+    border: 1px solid white;
+
 }
 
 /* MAIN-UNO  */
@@ -238,6 +247,8 @@ img{
         padding-top:4rem;
     }
 }
+
+
 /* FOOTER */
 .ms_footer{
     background-color: #11439c;
