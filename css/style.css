@@ -90,15 +90,11 @@ img{
 
 .ms_jumbotron-bottom img{
     border-radius:10px;
-    transition: all 2s;
-}
-
-.ms_.cont-img{
-    position: relative;
+    transition: all 1s;
 }
 
 .ms_jumbotron-bottom img:hover{
-    
+    transform: translateY(-30px);
 }
 
 /* MAIN-UNO  */
@@ -127,6 +123,31 @@ img{
 
 .ms_main-uno .ms_main-uno-img{
     width: 100px;
+    opacity: .5;
+ }
+
+ .ms_main-uno .ms_main-uno-cards{
+    position: relative;
+}
+
+ .ms_main-uno-border{
+    border: 1px solid #388bd7;
+    background-color: #388bd7;
+    height: 4px;
+    width: 100%;
+    border-radius:20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+ }
+
+ .ms_main-uno .ms_main-uno-cards:hover .ms_main-uno-img{
+    opacity: 1;
+}
+
+ .ms_main-uno .ms_main-uno-cards:hover .ms_main-uno-border{
+     display:block;
  }
 
 
