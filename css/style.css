@@ -173,16 +173,9 @@ img{
     
 }
 
-.ms_main-cinque .ms_main-cinque-img-lateral .ms_main-cinque-back-img{
-    background-repeat: no-repeat;
-    
+.ms_main-cinque .ms_main-cinque-img-lateral .ms_main-cinque-back-img {
+   height: 100%; 
 }
-
-
-.ms_main-cinque .ms_main-cinque-img-lateral{
-    display:none;
-}
-
 
 @media screen and (min-width:768px){
     
